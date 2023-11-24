@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\Header.h(9,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\Header1.h(29,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+  ConsoleApplication1.vcxproj -> C:\Users\Admin\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
