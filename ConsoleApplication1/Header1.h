@@ -7,7 +7,7 @@ struct user
 	int usamount=0;
 	int a;
 	int cash;
-	void cashout()
+	void banksys()
 	{
 		cout << "amount: " << usamount << endl;
 		cout << "Bank total: " << bank.total << endl;
@@ -36,15 +36,17 @@ struct user
 			}
 			if (a==3)
 			{
-				if (usamount)
+				cout << "Enter amount: " << cash << endl;
+				cin >> cash;
+				if (usamount<cash)
 				{
 					cout << "You dont have money cowboy!";
 					return;
 				}
-				cout << "Enter amount: " << cash << endl;
-				cin >> cash;
+				usamount -= cash;
 				bank.total += cash;
 				cout << "Thanks! Bank total now: " << bank.total << endl;
+				cout << "User acc: " << usamount;
 			}
 		}
 	}

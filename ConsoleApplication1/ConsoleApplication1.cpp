@@ -4,5 +4,6 @@
 int main()
 {
 	user user;
-	user.cashout();
+	user.banksys();
+	user.banksys();
 }
