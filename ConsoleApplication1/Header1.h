@@ -15,7 +15,7 @@ struct user
 		cin >> a;
 		if (a==1)
 		{
-			cout << "Welcome to our bank! If u want to cashout press 2"<<'\n'<<"if u want to cash in press 3" << endl;
+			cout << "Welcome to our bank! If u want to cashout press 2"<<'\n'<<"if u want to cashin press 3" << endl;
 			cin >> a;
 			if (a==2)
 			{
@@ -24,6 +24,7 @@ struct user
 				cin >> cash;
 				if (cash>bank.bankallowedpay)
 				{
+					cout << "Sorry, that`s too much cowboy" << endl;
 					return;
 				}
 				bank.comission = cash * 0.01;
